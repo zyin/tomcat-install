@@ -147,3 +147,7 @@ Find the HTTP connector (usually on port 8080) and add a redirectPort attribute:
 ```
 
 This will automatically redirect any HTTP traffic to HTTPS on port 8443.
+
+# Script
+* Self-signed certificate: groovy installTomcat.groovy -certificate self-signed
+* CA-signed certificate: groovy installTomcat.groovy -certificate CA-signed </path/to/ca-certificate-file>
